@@ -8,6 +8,8 @@
 #If a mention is not in the proper query format, plotbot replies with formatting instructions.
 #PlotBot can also distinguish between queries it's already done analysis for, invalid queries it's already responded to, and it's own mentions of itself.
 
+#This bot should be deployed to Heroku
+
 ```python
 # Dependencies
 import tweepy, re, json, time
