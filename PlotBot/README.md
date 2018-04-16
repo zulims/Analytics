@@ -2,11 +2,11 @@
 
 # A Twitter bot that sends out visualized sentiment analysis of a Twitter account's recent tweets.
 
-# The bot receives tweets via mentions and in turn performs sentiment analysis on accounts requested in the mentions.
-# For example, when a user tweets, "@PlotBot examine: @CNN," it will trigger a sentiment analysis on the CNN twitter feed.
-# A plot from the sentiment analysis is then tweeted to the PlotBot8 twitter feed.
-# If a mention is not in the proper query format, plotbot replies with formatting instructions.
-# PlotBot can also distinguish between queries it's already done analysis for, invalid queries it's already responded to, and it's own mentions of itself.
+#The bot receives tweets via mentions and in turn performs sentiment analysis on accounts requested in the mentions.
+#For example, when a user tweets, "@PlotBot examine: @CNN," it will trigger a sentiment analysis on the CNN twitter feed.
+#A plot from the sentiment analysis is then tweeted to the PlotBot8 twitter feed.
+#If a mention is not in the proper query format, plotbot replies with formatting instructions.
+#PlotBot can also distinguish between queries it's already done analysis for, invalid queries it's already responded to, and it's own mentions of itself.
 
 ```python
 # Dependencies
