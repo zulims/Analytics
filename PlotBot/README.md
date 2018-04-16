@@ -134,9 +134,9 @@ def Respond():
 
 ```python
 #Set timer to run every minute
-#while(True):
-Respond()
-    #time.sleep(60*5)
+while(True):
+  Respond()
+  time.sleep(60*5)
 ```
 
     @PlotBot8 examine: @Drake
