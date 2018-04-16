@@ -23,7 +23,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 analyzer = SentimentIntensityAnalyzer()
 
 # Twitter API Keys
-from twitter_config import (consumer_key, 
+from config import (consumer_key, 
                     consumer_secret, 
                     access_token, 
                     access_token_secret)
