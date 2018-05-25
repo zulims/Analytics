@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTC-8">
+	<title>Latitude Dashboard</title>
+	<!-- Linking Bootstrap stylesheet-->
+	
+<link
+ src="https://code.jquery.com/jquery-3.2.1.min.js"
+ integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ crossorigin="anonymous"></link>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></link>
+    
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<update></update>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html" id="logo">Latitude vs X</a>
+          </div>
+      
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../Data.html">Data</a></li>
+              <li><a href="../Comparison.html">Comparison</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Max_Temp.html">Max_Temp</a></li>
+                  <li><a href="Humidity.html">Humidity</a></li>
+                  <li><a href="Cloudiness.html">Cloudiness</a></li>
+                  <li><a href="Wind_Speed.html">Wind_Speed</a></li>
+                  <li role="pages/separator" class="divider"></li>
+                  <li><a href="../index.html">Summary</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+
+<div class="container">
+	<div class="row">
+     <div class="col-md-1"></div>  
+	   <div class="col-md-6">
+      <h1>Latitude vs. Cloudiness</h1>
+	    <img src="../assets/Latitude_vs_Cloudiness.png" width="500px" height="350px">
+	    <p>It appears, based on this plot, that there is no discernable trend correlating latitude with cloudiness. This is likely because clouds are often the result of a far more complex array of factors than something like temperature, which is largely dependent on the degree to which a part of the Earth’s surface directly faces the Sun.</p>
+     </div>
+     
+    <section id="sidebar">
+	   <div class="col-md-4 sidebar">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Visualizations</h1>
+          </div>
+        </div>
+       <div class="row">
+
+          <div class="col-md-3">    
+	           <a href="Max_Temp.html"><img src="../assets/Latitude_vs_Temp.png" width="200px" height="150px" class="sidebar-photo"></a>
+          </div>
+          <div class="col-md-3"></div>
+        
+          <div class="col-md-3">  
+	           <a href="Humidity.html"><img src="../assets/Latitude_vs_Humidity.png" width="200px" height="150px" class="sidebar-photo"></a>
+          </div>
+          <div class="col-md-3"></div>  
+       </div>   
+       <div class ="row"> 
+          
+          <div class="col-md-3">  
+            <a href="Cloudiness.html"><img src="../assets/Latitude_vs_Cloudiness.png" width="200px" height="150px" class="sidebar-photo active"></a>
+          </div>
+          <div class="col-md-3"></div>
+
+          <div class="col-md-3">     
+            <a href="Wind_Speed.html"><img src="../assets/Latitude_vs_Wind.png" width="200px" height="150px" class="sidebar-photo"></a>
+          </div>
+          <div class="col-md-3"></div>
+        </div>    
+     </div>
+    </section>
+
+    <div class="col-md-1"></div>
+  </div>      
+</div>
+
+<!-- jQuery CDN -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	 	
+</body>	
+<html>

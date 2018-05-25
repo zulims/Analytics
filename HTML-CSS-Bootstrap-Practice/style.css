@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(194, 221, 229);
+}
+
+h1 {
+     color: rgb(7, 53, 51);
+     background-color: white;
+     font-family: roboto;
+     font-weight: lighter;
+}
+
+h2 {
+  color: rgb(9, 71, 69);
+  background-color: white;
+  font-family: roboto;
+  font-weight: medium;
+  text-align: center
+}
+
+h3 {
+     color: rgb(9, 71, 69);
+     background-color: white;
+     font-family: roboto;
+     font-weight: bold;
+}
+
+img {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+#description-image {
+  float: left;
+  width: 245px;
+  height: 200px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.comparison-image:hover {
+  opacity: 0.6;
+}
+
+.sidebar-photo:hover {
+  opacity: 0.6;
+}
+
+.sidebar-photo.active {
+  /* Visuals */
+  border: 2px solid #4aaaa5;
+}
+
+p {
+   font-family: roboto;
+   font-size: 12
+}
+
+.container {
+  background-color: white;
+}
+
+
+#logo {
+  /* Box-model */
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+
+  /* Positioning */
+  margin-left: 25px;
+  font-family: roboto;
+
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+
+  /* Visual */
+  background: rgb(9, 71, 69);
+}
+#logo:hover {
+  /* Visual */
+  opacity: 0.7;
+}
+
+
+
+/* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
+@media (max-width: 480px) {
+  .navbar {
+    background-color: rgb(12, 173, 167);
+}
