@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UFOhhhhhh</title>
+  <!-- StyleSheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    
+    <!HERE'S THE JUMBOTRON>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="row">
+        <div class="col-md-4">
+         <h1 class="display-4">UFOhhhhh</h1> 
+        </div>
+        <div class"col-md-2">
+          <img src="http://33.media.tumblr.com/3bb84a0f9fed3f85797be6a901ae13a3/tumblr_ndzx89AVfO1s06rf6o1_500.gif" alt="Smiley face" height="100" width="100">
+          <img src="http://33.media.tumblr.com/3bb84a0f9fed3f85797be6a901ae13a3/tumblr_ndzx89AVfO1s06rf6o1_500.gif" alt="Smiley face" height="100" width="100">
+          <img src="http://33.media.tumblr.com/3bb84a0f9fed3f85797be6a901ae13a3/tumblr_ndzx89AVfO1s06rf6o1_500.gif" alt="Smiley face" height="100" width="100">
+          <img src="http://33.media.tumblr.com/3bb84a0f9fed3f85797be6a901ae13a3/tumblr_ndzx89AVfO1s06rf6o1_500.gif" alt="Smiley face" height="100" width="100">
+          <img src="http://33.media.tumblr.com/3bb84a0f9fed3f85797be6a901ae13a3/tumblr_ndzx89AVfO1s06rf6o1_500.gif" alt="Smiley face" height="100" width="100">
+          <img src="http://33.media.tumblr.com/3bb84a0f9fed3f85797be6a901ae13a3/tumblr_ndzx89AVfO1s06rf6o1_500.gif" alt="Smiley face" height="100" width="100">
+        </div>
+
+      </div>
+      
+    </div>
+
+    <!HERE'S THE FILTERS>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="filter-container" class="form-group">
+          <input class="form-control" id="city" type="text" placeholder="city" style="width:100px;">
+          
+          <input type="text" class="form-control" id="state" placeholder="state" style="width:100px;">
+          
+          <input class="form-control" id="datetime" type="text" placeholder="1/11/2011" style="width:100px;">
+
+          <select id="country" class="form-control" style="width:100px;">
+                <option default value=" ">country</option>
+          </select>
+
+          <select id="shape" class="form-control" style="width:100px;">
+            <option default value=" ">shape</option>
+          </select>
+
+          <select name="pageItems" id="maxRows" class="form-control" style="width:100px;">
+            <option default value="50">rows</option>
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="250">250</option>
+            <option value="500">500</option>
+            <option value="1000">1000</option>
+          </select>
+
+          <a id="search" class="btn btn-default">Search</a>
+
+        </div>
+      </div>
+    </div>
+
+    <!HERE'S THE TABLE>
+    <div class="row">
+      <div class="col-md-12">
+        <table id="mytable" class="table table-hover table-striped">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Country</th>
+              <th>Shape</th>
+              <th>Duration</th>
+              <th>Comments</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!HERE'S THE PAGINATION>
+    <div class="row">
+      <div class="col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-2 text-center pagination-container">
+        <ul class="pagination" id="pagination">
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="dataSet.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
