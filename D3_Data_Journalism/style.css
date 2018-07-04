@@ -1,0 +1,38 @@
+.tooltip {
+  /* position: absolute; */
+  /* width: 88px;
+  height: 120px; commenting these out will make them size dynamically*/
+  opacity: 1;
+  padding: 7px;
+  font: 12px sans-serif;
+  text-align: left;
+  color: white;
+  background: lightslategray;
+  background-color:rgba(119, 136, 153, 0.9);
+  border: 0;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.chart {
+  margin-top: 80px;
+}
+
+.active {
+  font-weight: bold;
+  fill: #000;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  fill: darkgrey;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive:hover {
+  fill: #000;
+  cursor: pointer;
+}
